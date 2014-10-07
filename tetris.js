@@ -2510,7 +2510,7 @@ function input_space() {
 
 function ServerConnect() {
 	
-	url = "ws://192.168.1.201:8080";
+	url = "ws://mmesh.pusan.ac.kr:8080";
     w = new WebSocket(url);
 	
     w.onopen = function() {
